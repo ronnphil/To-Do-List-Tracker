@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fastodo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app">
+
+    <aside id="sidebar">
+      <div class="brand">
+        <span class="brand-icon">⚡</span>
+        <span class="brand-name">Fastodo</span>
+      </div>
+      <div class="lists-section">
+        <div class="section-label">MY LISTS</div>
+        <nav id="list-nav"></nav>
+      </div>
+      <button id="btn-new-list">
+        <span class="plus-icon">+</span>
+        New List
+      </button>
+    </aside>
+
+    <main id="workspace">
+      <header id="greeting"></header>
+      <div class="input-row">
+        <input id="todo-input" type="text" placeholder="Add Todo" autocomplete="off">
+      </div>
+      <div id="input-meta"></div>
+      <div id="task-section-label"></div>
+      <ul id="task-list"></ul>
+    </main>
+
+    <section id="utility">
+      <div id="calendar"></div>
+      <div id="sort-panel"></div>
+    </section>
+
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
