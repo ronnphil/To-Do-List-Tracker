@@ -1,4 +1,5 @@
 # ⚡ Fastodo
+<img width="1918" height="984" alt="image" src="https://github.com/user-attachments/assets/adc534ec-621d-4ea8-8b7a-8ecf7fec4667" />
 
 A task dashboard that actually looks good at 2am.
 
